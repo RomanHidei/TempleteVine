@@ -1,0 +1,25 @@
+body {
+	width: 100%;
+	height: 100%;
+	font-family: Montserrat;
+}
+
+.header {
+	display: block;
+	width: 1920px;
+	height: 900px;
+	background: url(../img/header-img.png);
+}
+.contact {
+	font-size: 13px;
+	color: #fff;
+	padding-top: 30px;
+
+}
+#str {
+	margin-left: 405px;
+}
+#tel {
+	margin-left: 905px; 
+
+}
