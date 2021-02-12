@@ -1,10 +1,12 @@
 body {
 	width: 100%;
 	height: 100%;
+    padding: 0px;
+    margin: 0px;
 	font-family: Montserrat;
 }
 
-.header {
+.block1 {
 	display: block;
 	width: 1920px;
 	height: 900px;
@@ -57,4 +59,96 @@ body {
     top: 70px;
     border: 1px solid #FFFFFF;
     transform: rotate(90deg);
+}
+.block-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    }
+    #vine-card {
+    position: absolute;
+    width: 203px;
+    height: 50px;
+    left: 752px;
+    top: 700px;
+    background: #99862A;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 3px;
+    }
+    #tasting {
+    position: absolute;
+    width: 182px;
+    height: 50px;
+    left: 985px;
+    top: 700px;
+    background: #998431; 
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 3px;   
+}
+/*--------------------------------------*/
+.block2 {
+    display: flex;
+    width: 1920px;
+    height: 856px;
+    left: 0px;
+    top: 900px;
+    background: #282828;
+}
+.block2-text {
+    display: flex;
+    width: 1110px;
+    height: 656px;
+    margin-left: 405px;
+    margin-top: 100px;
+    top: 1000px;
+    border: 3px solid #C4C4C4;
+    box-sizing: border-box;
+}
+.block2-text h1 {
+    font-family: Playfair Display;
+     position: absolute;
+    width: 736px;
+    height: 54px;
+    left: 592px;
+    top: 1060px;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;  
+    font-style: normal;
+    font-weight: 400;
+}
+.block2-text h2 {
+    position: absolute;
+    width: 733px;
+    height: 192px;
+    left: 595px;
+    top: 1194px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;  
+}
+.block2 span {
+    position: absolute;
+    width: 160px;
+    height: 0px;
+    left: 880px;
+    top: 1154px;
+    border: 1px solid #FFFFFF;
+}
+#glass {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 880px;
+    top: 1436px;
+    background-image:url(../img/block2-glass.png);
 }
