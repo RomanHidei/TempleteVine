@@ -33,15 +33,28 @@ body {
     list-style-type: none;
     height: 47px;
     margin: 0px;
-
-
 }
 .nav li {
 	 font-size: 14px;
 	 color: #fff;
 	 float: left;
-     border: 1px solid #fff;
      padding: 15px;
      margin-left: 108px;
-
+     margin-right: 50px;
 }   
+.nav #line1 {
+	position: absolute;
+    width: 1105px;
+    height: 0px;
+    left: 415px;
+    top: 70px;
+    border-top: 1px solid #FFFFFF;
+}
+.nav li img {
+	position: absolute;
+    width: 46px;
+    height: 0px;
+    top: 70px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+}
